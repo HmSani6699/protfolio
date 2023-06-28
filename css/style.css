@@ -80,6 +80,7 @@ ul {
 .aside .logo a span {
     font-family: 'Clicker Script', cursive;
     font-family: 40px;
+    color: var(--sink-color);
 }
 
 .aside .logo a::before {
