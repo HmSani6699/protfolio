@@ -396,4 +396,21 @@ h3.my-profession {
     flex: 0 0 30%;
     max-width: 30%;
     margin-top: 40px;
+    /* display: flex;
+    align-items: center;
+    justify-content:center; */
+    padding: 40px;
+}
+
+.about .about-content .skills  a{
+    margin-left: 15px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.about .about-content .skills a:hover {
+    transform: scale(1.3);
 }
