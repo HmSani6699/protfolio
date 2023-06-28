@@ -75,7 +75,7 @@ ul {
 .section-title h2 {
     font-size: 40px;
     color: var(--text-black-900);
-    font-weight: 700px;
+    font-weight: 700;
     position: relative;
 }
 
@@ -110,7 +110,7 @@ ul {
 
 .btn {
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     padding: 12px 35px;
     border-radius: 40px;
     display: inline-block;
@@ -239,7 +239,7 @@ ul {
 
 .aside .nav li a {
     font-size: 16 px;
-    font-weight: 600px;
+    font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
@@ -304,7 +304,7 @@ h3.hello {
 h3.hello span {
     font-family: 'Clicker Script', cursive;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     color: var(--sink-color);
 }
 
@@ -343,7 +343,7 @@ h3.my-profession {
 .about .about-content .about-text h3 {
     font-size: 24px;
     margin-bottom: 15px;
-    font-weight: 700px;
+    font-weight: 700;
     color: var(--text-black-900);
 }
 
@@ -369,11 +369,27 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info .info-item p{
-    font-weight: 600px;
+    font-weight: 600;
     padding: 10px 0;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
+}
+
+.about .about-content .personal-info .info-item p span{
+    font-weight: 400;
+    color: var(--text-black-700);
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.about .about-content .personal-info .buttons{
+    margin-top: 30px;
+}
+
+.about .about-content .personal-info .buttons .btn{
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .about .about-content .skills {
