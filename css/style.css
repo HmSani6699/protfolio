@@ -428,7 +428,6 @@ padding-bottom: 40px;
     border: 1px solid --bg-black-50;
     border-radius: 10px;
     padding: 30px 15px;
-    text-align: center;
     height: 310px;
     transition: all 0.3s ease;
 }
