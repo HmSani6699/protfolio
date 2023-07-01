@@ -473,71 +473,71 @@ h3.my-profession {
 }
 
 /* Projects section */
-.projects .container{
+.projects .container {
     padding-bottom: 40px;
 }
 
-.projects .projects-heading{
+.projects .projects-heading {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 40px;
 }
 
-.projects .projects-heading h2{
+.projects .projects-heading h2 {
     color: var(--text-black-900);
     font-weight: 500;
 }
 
-.projects .projects-item{
+.projects .projects-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
 }
 
-.projects .projects-item-inner{
-    border:6px solid var(--bg-black-100) ;
+.projects .projects-item-inner {
+    border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
 }
 
-.projects .projects-item-inner .projects-img img{
+.projects .projects-item-inner .projects-img img {
     width: 100%;
     display: block;
 }
 
 /* Contact Section */
-.contact-title{
+.contact-title {
     color: var(--sink-color);
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-.contact-sub-title{
+.contact-sub-title {
     color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
     margin-bottom: 60px;
 }
 
-.contact .contact-info-item{
+.contact .contact-info-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     text-align: center;
     margin-bottom: 60px;
 }
 
-.contact .contact-info-item .icon{
+.contact .contact-info-item .icon {
     display: inline-block;
 }
 
-.contact .contact-info-item .icon .fa{
+.contact .contact-info-item .icon .fa {
     font-size: 25px;
     color: var(--sink-color);
 }
 
-.contact .contact-info-item h4{
+.contact .contact-info-item h4 {
     font-size: 18px;
     font-weight: 700;
     color: var(--text-black-900);
@@ -545,33 +545,33 @@ h3.my-profession {
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p{
+.contact .contact-info-item p {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400px;
 }
 
-.contact .contact-form{
+.contact .contact-form {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.contact .contact-form .col-6{
+.contact .contact-form .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
 }
 
-.contact .contact-form .col-12{
+.contact .contact-form .col-12 {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.contact .contact-form .form-item{
+.contact .contact-form .form-item {
     margin-bottom: 30px;
 }
 
-.contact .contact-form .form-item .form-control{
+.contact .contact-form .form-item .form-control {
     width: 100%;
     height: 50px;
     border-radius: 25px;
@@ -583,46 +583,65 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 
-.contact .contact-form .form-item .form-control:focus{
+.contact .contact-form .form-item .form-control:focus {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
-.contact .contact-form .form-item textarea.form-control{
+.contact .contact-form .form-item textarea.form-control {
     height: 140px;
 }
 
-.contact .contact-form .btn{
+.contact .contact-form .btn {
     height: 50px;
     padding: 0 50px;
 }
-.contact .contact-form .btn i{
-   margin-left: 8px;
+
+.contact .contact-form .btn i {
+    margin-left: 8px;
 }
 
 @media (max-width:1199px) {
-    .aside{
+    .aside {
         left: -270px;
     }
-    .main-content{
-        padding-left:0px ;
+
+    .main-content {
+        padding-left: 0px;
     }
-    .about .about-content .personal-info .info-item p span{
+
+    .about .about-content .personal-info .info-item p span {
         display: block;
         margin-left: 0px;
     }
 }
 
 @media (max-width:991px) {
-    .service .service-item{
+
+    .contact .contact-info-item,
+    .projects .projects-item,
+    .service .service-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .home .home-info{
+
+    .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .home .home-img{
+
+    .home .home-img {
         display: none;
     }
 }
 
+@media (max-width:767px) {
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .projects .projects-item,
+    .service .service-item ,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
