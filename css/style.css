@@ -479,6 +479,8 @@ h3.my-profession {
 
 .projects .projects-heading{
     flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 
 .projects .projects-heading h2{
@@ -501,4 +503,5 @@ h3.my-profession {
 
 .projects .projects-item-inner .projects-img img{
     width: 100%;
+    display: block;
 }
