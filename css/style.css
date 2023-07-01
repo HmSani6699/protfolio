@@ -163,7 +163,7 @@ ul {
     color: var(--sink-color);
 }
 
-.aside .logo a::before {
+/* .aside .logo a::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -183,7 +183,7 @@ ul {
     border-right: 5px solid var(--sink-color);
     top: 0;
     right: 0;
-}
+} */
 
 .aside .nav-toggler {
     height: 40px;
@@ -274,7 +274,7 @@ ul {
     position: relative;
 }
 
-.home-img::after {
+/* .home-img::after {
     content: '';
     position: absolute;
     height: 80px;
@@ -294,7 +294,7 @@ ul {
     border-left: 10px solid var(--sink-color);
     left: 20px;
     top: -40px;
-}
+} */
 
 h3.hello {
     font-size: 28px;
@@ -617,13 +617,57 @@ h3.my-profession {
 
 @media (max-width:991px) {
 
+    .home .home-img,
+    .home .home-info,
     .contact .contact-info-item,
     .projects .projects-item,
     .service .service-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
+}
 
+@media (max-width:767px) {
+
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .projects .projects-item,
+    .service .service-item,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-img,
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-info {
+        text-align: center;
+    }
+
+    .home .home-img {
+        margin-top: 50px;
+    }
+
+    .home .home-img img {
+        width: 75%;
+        height:100%;
+    }
+
+    .about .about-content .personal-info .row .buttons{
+        width: 100%;
+        text-align: center;
+    }
+    .about .about-content .skills {
+        text-align: center;
+    }
+}
+
+@media (max-width:600px) {
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
@@ -631,17 +675,5 @@ h3.my-profession {
 
     .home .home-img {
         display: none;
-    }
-}
-
-@media (max-width:767px) {
-    .contact .contact-form .col-6,
-    .contact .contact-info-item,
-    .projects .projects-item,
-    .service .service-item ,
-    .about .about-content .skills,
-    .about .about-content .personal-info {
-        flex: 0 0 100%;
-        max-width: 100%;
     }
 }
