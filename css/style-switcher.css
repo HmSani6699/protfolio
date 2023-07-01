@@ -31,6 +31,10 @@
     line-height: 40px;
 }
 
+.style-switcher .style-switcher-toggler{
+    top: 0;
+}
+
 .style-switcher .day-night{
-    top: 70px;
+    top: 55px;
 }
