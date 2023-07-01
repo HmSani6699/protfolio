@@ -42,9 +42,9 @@ ul {
     opacity: 1;
 }
 
-/* .hidden {
+.hidden {
     display: none !important;
-} */
+}
 
 .main-content {
     padding-left: 270px;
@@ -470,4 +470,14 @@ h3.my-profession {
 .skills img {
     height: 60px;
     width: 60px;
+}
+
+/* Projects section */
+.projects .projects-heading{
+    flex: 0 0 100%;
+}
+
+.projects .projects-heading h2{
+    color: var(--text-black-900);
+    font-weight: 500;
 }
