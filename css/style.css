@@ -328,6 +328,13 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
+.home-info .buttons .hire-me{
+margin-left: 15PX;
+}
+.home-info .buttons .btn i{
+margin-left: 10PX;
+}
+
 .home .home-img img {
     margin: auto;
     border-radius: 5px;
