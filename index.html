@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- ====== Style Switcher ======-->
     <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- ====== Style Aos ======-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -48,7 +51,7 @@
                                 eius dolorem veritatis velit</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
-                        <div class="home-img padd-15">
+                        <div class="home-img padd-15" data-aos="fade-left">
                             <img src="images/image4.png" alt="">
                         </div>
                     </div>
@@ -127,7 +130,7 @@
                     </div>
                     <div class="row">
                         <!-- ===== Services Item Start ===== -->
-                        <div class="service-item padd-15">
+                        <div class="service-item padd-15" data-aos="fade-right">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa-regular fa-object-group"></i>
@@ -139,7 +142,7 @@
                         </div>
                         <!-- ===== Services Item End ===== -->
                         <!-- ===== Services Item Start ===== -->
-                        <div class="service-item padd-15">
+                        <div class="service-item padd-15" data-aos="fade-down">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa-solid fa-code"></i>
@@ -151,7 +154,7 @@
                         </div>
                         <!-- ===== Services Item End ===== -->
                         <!-- ===== Services Item Start ===== -->
-                        <div class="service-item padd-15">
+                        <div class="service-item padd-15" data-aos="fade-left">
                             <div class="service-item-inner">
                                 <div class="icon">
                                     <i class="fa-solid fa-rocket"></i>
@@ -256,12 +259,13 @@
                         <div class="projects-item padd-15">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
-                                    <img src="images/projects2.png" alt="">
+                                    <img src="images/projects3.png" alt="">
                                 </div>
                                 <div class="projects-info">
-                                    <h2>Toy Marketplace</h2>
-                                    <p>Toy Marketplace is a website where we can easily list various cars and toys for kids. </p>
-                                    <button class="btn"><a href="https://assignment11-67a05.web.app/"
+                                    <h2>Job Hiring</h2>
+                                    <p>Job Hiring is a job hiring website where we can find remote control jobs, among
+                                        others.</p>
+                                    <button class="btn"><a href="https://aesthetic-sunshine-1615f7.netlify.app/"
                                             target="_blank">Live Demo</a></button>
                                 </div>
                             </div>
@@ -271,12 +275,13 @@
                         <div class="projects-item padd-15">
                             <div class="projects-item-inner shadow-dark">
                                 <div class="projects-img">
-                                    <img src="images/projects3.png" alt="">
+                                    <img src="images/projects2.png" alt="">
                                 </div>
                                 <div class="projects-info">
-                                    <h2>Job Hiring</h2>
-                                    <p>Job Hiring is a job hiring website where we can find remote control jobs, among others.</p>
-                                    <button class="btn"><a href="https://aesthetic-sunshine-1615f7.netlify.app/"
+                                    <h2>Toy Marketplace</h2>
+                                    <p>Toy Marketplace is a website where we can easily list various cars and toys for
+                                        kids. </p>
+                                    <button class="btn"><a href="https://assignment11-67a05.web.app/"
                                             target="_blank">Live Demo</a></button>
                                 </div>
                             </div>
@@ -394,6 +399,11 @@
             backSpeed: 100,
             loop: true
         })
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
