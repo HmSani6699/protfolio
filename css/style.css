@@ -51,10 +51,6 @@ ul {
     opacity: 1;
 }
 
-/* .hidden {
-    display: none !important;
-} */
-
 .main-content {
     padding-left: 270px;
 }
@@ -172,7 +168,7 @@ ul {
     color: var(--sink-color);
 }
 
-.aside .logo a::before {
+/* .aside .logo a::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -192,7 +188,7 @@ ul {
     border-right: 5px solid var(--sink-color);
     top: 0;
     right: 0;
-}
+} */
 
 .aside .nav-toggler {
     height: 40px;
@@ -283,7 +279,7 @@ ul {
     position: relative;
 }
 
-.home-img::after {
+/* .home-img::after {
     content: '';
     position: absolute;
     height: 80px;
@@ -303,7 +299,7 @@ ul {
     border-left: 10px solid var(--sink-color);
     left: 20px;
     top: -40px;
-}
+} */
 
 h3.hello {
     font-size: 28px;
@@ -505,16 +501,51 @@ h3.my-profession {
 }
 
 .projects .projects-item-inner {
-    border: 6px solid var(--bg-black-100);
+    border: 1px solid rgb(158, 158, 158);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects .projects-item-inner:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 .projects .projects-item-inner .projects-img img {
     width: 100%;
+    height: 180px;
     display: block;
 }
+
+.projects .projects-item-inner .projects-info{
+    padding: 10px 10px;
+}
+
+.projects .projects-item-inner .projects-info h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.projects .projects-item-inner .projects-info p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.projects .projects-item-inner .projects-info .btn{
+    margin: 15px 0;
+}
+
+.projects .projects-item-inner .projects-info .btn a{
+    color: var(--text-black-700);
+    color: #ffffff;
+}
+
 
 /* Contact Section */
 .contact-title {
@@ -559,7 +590,7 @@ h3.my-profession {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .contact .contact-form {
