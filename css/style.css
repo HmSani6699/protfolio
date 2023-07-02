@@ -13,6 +13,7 @@ body.dark{
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
     --text-black-700: #504e70;
+    overflow-y: hidden;
 }
 
 
@@ -67,8 +68,8 @@ ul {
 }
 
 .section .container {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 45px;
+    padding-bottom: 50px;
 }
 
 .section-title {
@@ -506,6 +507,8 @@ h3.my-profession {
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 420px;
+    position: relative;
 }
 
 .projects .projects-item-inner:hover{
@@ -539,7 +542,9 @@ h3.my-profession {
 }
 
 .projects .projects-item-inner .projects-info .btn{
-    margin: 15px 0;
+    /* margin: 15px 0; */
+    position: absolute;
+    bottom: 25px;
 }
 
 .projects .projects-item-inner .projects-info .btn a{
