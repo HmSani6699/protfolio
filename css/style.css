@@ -134,6 +134,7 @@ ul {
     transform: scale(1.05)
 }
 
+
 /* Aside Style */
 .aside {
     width: 270px;
@@ -521,7 +522,6 @@ margin-left: 10PX;
     border: 1px solid rgb(42, 42, 42);
     border-radius: 6px;
     overflow: hidden;
-    cursor: pointer;
     transition: all 0.3s ease;
     height: 420px;
     position: relative;
