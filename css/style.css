@@ -126,6 +126,10 @@ ul {
     transition: all 0.3s ease;
 }
 
+.btn i{
+    margin-left: 10px;
+}
+
 .btn:hover {
     transform: scale(1.05)
 }
@@ -441,7 +445,7 @@ margin-left: 10PX;
     border: 1px solid --bg-black-50;
     border-radius: 10px;
     padding: 30px 15px;
-    height: 310px;
+    height: 320px;
     transition: all 0.3s ease;
 }
 
@@ -485,6 +489,12 @@ margin-left: 10PX;
     width: 60px;
 }
 
+#skills .service-item .service-item-inner h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
 /* Projects section */
 .projects .container {
     padding-bottom: 40px;
