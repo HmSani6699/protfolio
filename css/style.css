@@ -502,17 +502,24 @@ h3.my-profession {
   border-left: 4px solid var(--sink-color);
   margin-left: 20px;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
-.square {
+
+.square,
+.square_2 {
   height: 20px;
   width: 20px;
   border-radius: 50%;
   background-color: var(--sink-color);
   position: absolute;
   left: -12px;
-  top: 55px;
   border: 1px solid white;
+}
+.square {
+  top: 55px;
+}
+.square_2 {
+  top: 8px;
 }
 .experience-text {
   color: var(--text-black-700);
@@ -520,6 +527,9 @@ h3.my-profession {
 .experience-text h3 {
   font-size: 25px;
   margin-top: 45px;
+}
+.experience-text h2 {
+  font-size: 25px;
 }
 .experience-text h4 {
   font-size: 14px;
