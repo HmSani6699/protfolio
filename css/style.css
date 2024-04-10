@@ -572,7 +572,7 @@ h3.my-profession {
   border-radius: 6px;
   overflow: hidden;
   transition: all 0.3s ease;
-  height: 460px;
+  height: 490px;
   position: relative;
 }
 
@@ -582,7 +582,7 @@ h3.my-profession {
 
 .projects .projects-item-inner .projects-img img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   display: block;
 }
 
@@ -594,8 +594,26 @@ h3.my-profession {
   font-size: 25px;
   font-weight: 700;
   color: var(--text-black-900);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-top: 12px;
+}
+.projects .projects-item-inner .projects-info .eshikhon {
+  background: #2872a3;
+  background: linear-gradient(to right, #2872a3 24%, #1ea187 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects .projects-item-inner .projects-info .aabason {
+  background: #9f21d3;
+  background: linear-gradient(to right, #ce7cf0 0%, #ff0300 35%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.projects .projects-item-inner .projects-info .mges {
+  background: #1020ff;
+  background: linear-gradient(to right, #273aff 6%, #ffc11d 21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .projects .projects-item-inner .projects-info p {
